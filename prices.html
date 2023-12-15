@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- *bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>prices</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/site.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav
+      id="Navbar"
+      class="top-nav navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand nav-text" href="Index.html"
+          >Canberra Restaurants</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-text" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Restaurants.html" alt="Restruants"
+                >Restaurants</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cuisines.html" alt="Cusines"
+                >Cuisines</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Dishes.html" alt="Dish">Dishes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Prices.html" alt="Price">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Locations.html" alt="Location"
+                >Locations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" alt="Contact & About"
+                >Contact & About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="price-hero">
+      <div class="price-text">
+        <h1>Prices List of Resturants</h1>
+        <p>From Cheap to Fine Dinning</p>
+        <p>Click one of that to get more information:</p>
+      </div>
+
+      <div class="choice-container">
+        <div
+          class="blu-ginger-price"
+          onclick="openTab('.cheap-eat');"
+          style="background: green"
+        >
+          Cheap eats
+        </div>
+        <div
+          class="belluci"
+          onclick="openTab('.mid-eat');"
+          style="background-color: burlywood"
+        >
+          Mid-range
+        </div>
+        <div
+          class="chariman"
+          onclick="openTab('.fine-eat');"
+          style="background-color: grey"
+        >
+          Fine dining
+        </div>
+      </div>
+
+      <div class="cheap-eat" style="background: green">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <div class="cheap-container">
+          <div class="cheap-text">
+            <h3>Blu Ginger</h3>
+            <p>
+              if you have cheap buget looking for cheap and easy one you can go
+              to Blu Ginger<br />
+              The food in their menu most expensive is $22
+            </p>
+          </div>
+          <div class="cheap-img-container">
+            <img class="cheap-img" src="images/location/bluginger_logo.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mid-eat" style="display: none; background-color: burlywood">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <div class="mid-container">
+          <div class="mid-text">
+            <h3>Belluci’s Italian</h3>
+            <p>
+              if you have normal buget looking for less expensive one you can
+              pick Belluci’s Italian They have food in their menu less than 40$
+            </p>
+          </div>
+          <div class="mid-img-container">
+            <img class="mid-img" src="images/location/bellucis_logo.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="fine-eat" style="display: none; background: grey">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >x</span
+        >
+        <div class="fine-container">
+          <div class="fine-text">
+            <h3>Chairman & Yip</h3>
+            <p>
+              if you have high buget looking for expensive one you can pick
+              chairman & Yip.<br />
+              Set1 for $68.50 per person<br />
+              Set2 for $88 per person
+            </p>
+          </div>
+          <div class="fine-img-container">
+            <img class="fine-img" src="images/location/chairman_logo.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary author">© 2023 Ricky Kang</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end align-items-center list-unstyled d-flex">
+          <li class="logo-item">
+            <a class="text-body-secondary" href="https://www.facebook.com/RickyRicky1907">
+              <img src="./images/logo/623dd7d270712bdafc63c38a.png" style="width: 40px; height: 40px;" />
+            </a>
+          </li>
+          <li class="logo-item">
+            <a class="text-body-secondary" href="https://www.instagram.com/_riki.n/">
+              <img src="./images/logo/5ecec78673e4440004f09e77.png" style="width: 33px; height: 33px;" />
+            </a>
+          </li>
+          <li class="logo-item">
+            <a class="text-body-secondary" href="https://github.com/N3-Ricky">
+              <img src="./images/logo/github-mark.png" style="width: 35px; height: 35px;" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+  </body>
+</html>

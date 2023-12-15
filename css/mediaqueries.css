@@ -1,0 +1,500 @@
+@media screen and (max-width: 1600px) {
+  /* price */
+  .cheap-text h3,
+  .mid-text h3,
+  .fine-text h3
+  {
+    font-size: 2.5rem;
+  }
+  .cheap-text p,
+  .mid-text p,
+  .fine-text p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .cheap-img,
+  .mid-img,
+  .fine-img{
+    height: 250px;
+    width: 250px;
+  }
+  .price-text h1{
+    font-size: 2.5rem;
+  }
+  .price-text p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .detail-text {
+    flex-direction: row;
+  }
+  /* contact */
+  .contact-container{
+    flex:1;
+  }
+  /* price */
+  .cheap-text h3,
+  .mid-text h3,
+  .fine-text h3
+  {
+    font-size: 2.5rem;
+  }
+  .cheap-text p,
+  .mid-text p,
+  .fine-text p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .cheap-img,
+  .mid-img,
+  .fine-img{
+    height: 200px;
+    width: 150px;
+  }
+  .price-text h1{
+    font-size: 2.5rem;
+  }
+  .price-text p{
+    font-size: 1.2rem;
+  }
+  #price-hero{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* navbar */
+  .nav-text {
+    font-size: 0.9rem;
+  }
+  /* Hero */
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+  .hero-text h2 {
+    font-size: 3rem;
+  }
+  .hero-text p {
+    font-size: 1.25rem;
+  }
+
+  /* welcome */
+  .welcome-text h1 {
+    font-size: 1.25rem;
+  }
+  .welcome-text h2 {
+    font-size: 1.5rem;
+  }
+  .welcome-text p {
+    font-size: 1rem;
+  }
+  .welcome-container {
+    gap: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .img-container {
+    gap: 1rem;
+  }
+
+  /* detail */
+  #detail {
+    height: fit-content;
+  }
+  .image-background {
+    height: 100%;
+    object-fit: cover;
+  }
+  .detail-text {
+    flex-direction: column;
+  }
+  .detail-text .cuisines h2,
+  .detail-text .dish h2,
+  .detail-text .prices h2,
+  .detail-text .locations h2 {
+    font-size: 2.5rem;
+  }
+  .detail-text .cuisines a,
+  .detail-text .dish a,
+  .detail-text .prices a,
+  .detail-text .locations a {
+    font-size: 1rem;
+  }
+
+  .detail-text .cuisines p,
+  .detail-text .dish p,
+  .detail-text .prices p,
+  .detail-text .locations p {
+    font-size: 1rem;
+  }
+
+  /* review */
+  .deatil-container {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .review_text p {
+    font-size: 1rem;
+  }
+
+  /* contact page */
+  #contact-page {
+    padding-top: 3rem;
+  }
+
+  .info-container {
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    gap: 0.5rem;
+    width: 100%;
+    flex: 1;
+  }
+  .contact-container {
+    width: 100%;
+  }
+  .contact-img {
+    width: 200px;
+    height: 150px; /* Adjust the height to your desired value */
+    object-fit: cover;
+  }
+  .bellucis h1,
+  .italian-son h1,
+  .blu-ginger h1,
+  .jewel-india h1,
+  .chariman-yip h1,
+  .dickson-noodle h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+  }
+  .bellucis p,
+  .italian-son p,
+  .blu-ginger p,
+  .jewel-india p,
+  .chariman-yip p,
+  .dickson-noodle p {
+    font-size: 0.8rem;
+    text-align: left;
+    color: black;
+  }
+
+  /* price */
+  .cheap-text h3,
+  .mid-text h3,
+  .fine-text h3
+  {
+    font-size: 2.5rem;
+  }
+  .cheap-text p,
+  .mid-text p,
+  .fine-text p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .cheap-img,
+  .mid-img,
+  .fine-img{
+    height: 150px;
+    width: 200px;
+  }
+  .price-text h1{
+    font-size: 2.5rem;
+  }
+  .price-text p{
+    font-size: 1.2rem;
+  }
+  #price-hero{
+    height: 86vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-text {
+    font-size: 0.75rem;
+  }
+
+  /* detail */
+  #detail {
+    height: fit-content;
+  }
+  .image-background {
+    height: 100%;
+    object-fit: cover;
+  }
+  #footer {
+    text-align: center; /* Adjust alignment for smaller screens */
+  }
+
+  .col-md-4 {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
+  }
+
+  .nav.col-md-4 {
+    justify-content: center; /* Center the social icons for smaller screens */
+  }
+  #footer {
+    text-align: center; /* Adjust alignment for smaller screens */
+  }
+
+  .col-md-4 {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
+  }
+
+  .nav.col-md-4 {
+    justify-content: center; /* Center the social icons for smaller screens */
+  }
+
+  .justify-content-end {
+    justify-content: center !important;
+    padding-right: 0;
+  }
+  .d-flex {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  /* contact */
+  #contact-page {
+    padding-top: 3rem;
+  }
+  /* price */
+  .cheap-text h3,
+  .mid-text h3,
+  .fine-text h3
+  {
+    font-size: 2.5rem;
+  }
+  .cheap-text p,
+  .mid-text p,
+  .fine-text p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .cheap-img,
+  .mid-img,
+  .fine-img{
+    height: 150px;
+    width: 200px;
+  }
+  .price-text h1{
+    font-size: 2.5rem;
+  }
+  .price-text p{
+    font-size: 1.2rem;
+  }
+  #price-hero{
+    height: 86vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #Navbar .navbar-brand {
+    font-size: 1rem;
+  }
+  #Navbar {
+    font-size: 1rem;
+  }
+
+  /* welcome */
+  #welcome {
+    height: fit-content;
+    width: 100%;
+  }
+  .welcome-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 1rem;
+  }
+  .burger,
+  .spaghetti {
+    width: 10rem;
+    height: 10rem;
+  }
+  /* detail */
+  #detail {
+    height: fit-content;
+  }
+  .image-background {
+    height: 100%;
+    object-fit: cover;
+  }
+  .detail-container {
+    height: fit-content;
+  }
+  .detail-text {
+    flex-direction: column;
+  }
+  .detail-text .cuisines h2,
+  .detail-text .dish h2,
+  .detail-text .prices h2,
+  .detail-text .locations h2 {
+    font-size: 2.5rem;
+  }
+  .detail-text .cuisines a,
+  .detail-text .dish a,
+  .detail-text .prices a,
+  .detail-text .locations a {
+    font-size: 1rem;
+  }
+
+  .detail-text .cuisines p,
+  .detail-text .dish p,
+  .detail-text .prices p,
+  .detail-text .locations p {
+    font-size: 1rem;
+  }
+
+  /* Review */
+  #Reviews {
+    height: fit-content;
+  }
+
+  /* footer */
+  #footer {
+    text-align: center; /* Adjust alignment for smaller screens */
+  }
+
+  .col-md-4 {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
+  }
+
+  .nav.col-md-4 {
+    justify-content: center; /* Center the social icons for smaller screens */
+  }
+  #footer {
+    text-align: center; /* Adjust alignment for smaller screens */
+  }
+
+  .col-md-4 {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
+  }
+
+  .nav.col-md-4 {
+    justify-content: center; /* Center the social icons for smaller screens */
+  }
+
+  .justify-content-end {
+    justify-content: center !important;
+    padding-right: 0;
+  }
+  .d-flex {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .carousel-inner,
+  .carousel-item {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    overflow: hidden; /* Ensure the images don't overflow the container */
+  }
+
+  .carousel-item img {
+    width: 100%; /* Ensure images take full width */
+    height: 30vh; /* Allow the height to adjust proportionally */
+  }
+
+  .trans--grow {
+    -webkit-transition: none; /* Remove transition for smaller screens */
+    transition: none;
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+
+  .hr1,
+  .hr2 {
+    width: 100%; /* Set the width of the horizontal rules to 100% */
+  }
+
+  .feature-container {
+    padding: 0; /* Remove padding as needed for responsiveness */
+  }
+
+  .feature-resturant-text {
+    text-align: center;
+    color: navy;
+  }
+
+  #mySlides {
+    width: 100%; /* Set width to 100% for responsiveness */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .carousel-indicators {
+    bottom: 10px; /* Adjust position of indicators */
+  }
+
+  /* contact page */
+  .info-container {
+    padding: 0.5rem 2rem;
+    gap: 0.5rem;
+    width: 100%;
+    flex:1;
+  }
+  .contact-container {
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+  .contact-img {
+    width: 200px;
+    height: 150px; /* Adjust the height to your desired value */
+    object-fit: cover;
+  }
+  .bellucis h1,
+  .italian-son h1,
+  .blu-ginger h1,
+  .jewel-india h1,
+  .chariman-yip h1,
+  .dickson-noodle h1 {
+    font-size: 1.75rem;
+    text-align: start;
+    color: black;
+  }
+  .bellucis p,
+  .italian-son p,
+  .blu-ginger p,
+  .jewel-india p,
+  .chariman-yip p,
+  .dickson-noodle p {
+    font-size: 0.75rem;
+    text-align: left;
+    color: black;
+  }
+  /* price */
+  .cheap-text h3,
+  .mid-text h3,
+  .fine-text h3
+  {
+    font-size: 2.5rem;
+  }
+  .cheap-text p,
+  .mid-text p,
+  .fine-text p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .cheap-img,
+  .mid-img,
+  .fine-img{
+    height: 150px;
+    width: 200px;
+  }
+  .price-text h1{
+    font-size: 2.5rem;
+  }
+  .price-text p{
+    font-size: 1.2rem;
+  }
+  #price-hero{
+    height: auto;
+  }
+}

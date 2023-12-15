@@ -1,0 +1,477 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NavBar */
+.top-nav {
+  padding: 0.5rem;
+}
+.nvabar-brand{
+  font-size: 1.2rem;
+}
+.nav-text{
+  font-size: 1.1rem;
+}
+.navbar-nav{
+  gap: 0.8rem;
+}
+.mr-auto, .mx-auto {
+  margin-right: 5rem!important;
+}
+
+#navbarCollapse{
+  justify-content: flex-end;
+}
+
+/* section */
+
+section {
+  height: 100vh;
+  box-sizing: border-box;
+  min-height: fit-content;
+  margin: 0 0;
+  width: 100%;
+}
+
+/* hero */
+#hero {
+  min-height: fit-content;
+}
+
+.background-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.backg {
+  width: 100%;
+  height: 100vh;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 20, 20, 0.7);
+  min-height: fit-content;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.border-container {
+  position: relative; /* Add this to allow z-index to work */
+  border: 0.2rem solid white;
+  z-index: 1; /* Ensure the border displays on top of the background */
+  padding: 2rem; /* Adjust padding to control text position within the bordered container */
+  background-color: none;
+  margin-bottom: 5rem;
+}
+
+.hero-text p{
+  font-size: 1.5rem;
+  color: white;
+}
+.hero-text h2 {
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.hero-color {
+  color: rgba(247, 202, 24, 1);
+}
+
+/* welcome */
+#welcome {
+  position: relative;
+  gap: 4rem;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-text h1 {
+  color: navy;
+  font-size: 3rem;
+}
+
+.welcome-text h2 {
+  color: black;
+  font-size: 2rem;
+}
+.welcome-text p{
+  font-size: 1.2rem;
+}
+
+.welcome-container {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 6rem 2rem 6rem;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-container {
+  gap: 2rem;
+  align-items: center;
+}
+
+.welcome-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.burger,.spaghetti  {
+  width: 13rem;
+  height: 13rem;
+}
+/* Detail section */
+#detail {
+  position: relative;
+  height: auto;
+  min-height: 35vh;
+  padding: 0;
+}
+.deatil-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+.image-background {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.b-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2; /* To position the image behind the content */
+  margin: 0;
+}
+
+.cusine-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 20, 20, 0.7);
+  min-height: fit-content;
+  z-index: -1;
+}
+
+.detail-text {
+  width: 100%;
+  display: flex;
+  color: white;
+  z-index: 2;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.detail-text .cuisines h2,
+.detail-text .dish h2,
+.detail-text .prices h2,
+.detail-text .locations h2 {
+  color: rgba(247, 202, 24, 1);
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.detail-text .cuisines a,
+.detail-text .dish a,
+.detail-text .prices a,
+.detail-text .locations a {
+  font-size: 1.25rem;
+}
+
+.detail-text .cuisines p,
+.detail-text .dish p,
+.detail-text .prices p,
+.detail-text .locations p {
+  font-size: 1.25rem;
+}
+
+/* Review */
+#review {
+  position: relative;
+  gap: 4rem;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* featured resuturant */
+.hr {
+  padding: 1px 0px 1px 0px;
+  border: none;
+  letter-spacing: 5px;
+}
+
+.feature-resturant-text{
+    text-align: center;
+    color: black;
+}
+
+#feature-resturant{
+    height: fit-content;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.line{
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+}
+
+#mySlides{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.feature-text{
+  font-size: 2rem;
+  color: rgba(247, 202, 24, 1);
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+}
+
+.bg-purple {
+    background-color: rgba(31, 20, 20, 0.7);
+}
+.rounded {
+    border-radius: var(--bs-border-radius)!important;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+.my-3 {
+    margin-top: 1rem!important;
+    margin-bottom: 0rem!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.shadow-sm {
+    box-shadow: var(--bs-box-shadow-sm)!important;
+}
+.d-flex {
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+/* footer */
+
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.logo-item {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+.author{
+  font-size: 1.25rem;
+}
+
+.mt-4, .my-4 {
+  margin-top: 0rem !important;
+}
+
+/* contact Page */
+#contact-page{
+  height: fit-content;
+  padding-top: 3.5rem;
+}
+.contact-container{
+  display:flex;
+  flex-flow: wrap;
+}
+.bellucis h1,
+.italian-son h1,
+.blu-ginger h1,
+.jewel-india h1,
+.chariman-yip h1,
+.dickson-noodle h1{
+  font-family: 'Niconne', cursive;
+  font-size: 2.5rem;
+  text-align: start;
+  font-weight: 400;
+  color: black;
+}
+.bellucis p,
+.italian-son p,
+.blu-ginger p,
+.jewel-india p,
+.chariman-yip p,
+.dickson-noodle p{
+  font-size: 1rem;
+  text-align: left;
+  color: black;
+  font-size: 1rem; /* Adjust as needed */
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center; 
+  padding: 0.5rem 7rem;
+  box-sizing: border-box;
+}
+.contact-img{
+  width: 300px;
+  height: 200px; /* Adjust the height to your desired value */
+  object-fit: cover;
+}
+.bellucis{
+  background-color: skyblue;
+}
+.italian-son{
+  background-color: gainsboro;
+}
+.blu-ginger{
+  background-color: lightpink;
+}
+.jewel-india{
+  background-color: dimgrey;
+}
+.chariman-yip{
+  background-color: lightblue;
+}
+.dickson-noodle{
+  background-color: lightcyan;
+}
+
+/* price */
+#price-hero
+{
+  padding-top: 3.5rem;
+  height: 92vh;
+  min-height: calc(95vh - 50px - 56px);
+}
+.choice-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  width: 100%;   /* Take up all available horizontal space */
+}
+.blu-ginger-price,
+.belluci,
+.chariman {
+  flex: 1;       /* Distribute available space equally among columns */
+  text-align: center;
+  cursor: pointer;
+  padding: 2rem;
+}
+.price-text{
+  text-align: center;
+}
+.price-text h1{
+  font-size: 3rem;
+  color: rgba(247, 202, 24, 1);
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  justify-content: center;
+}
+.price-text p{
+  font-size: 1.5rem;
+}
+.cheap-container,
+.mid-container,
+.fine-container{
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.closebtn{
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 2rem;
+}
+.cheap-text h3,
+.mid-text h3,
+.fine-text h3
+{
+  text-align: center;
+  font-family: "Niconne", cursive;
+  font-size: 3rem;
+  color: rgba(247, 202, 24, 1);
+}
+.cheap-text p,
+.mid-text p,
+.fine-text p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.cheap-img,
+.mid-img,
+.fine-img{
+  height: 250px;
+  width: 300px;
+}
