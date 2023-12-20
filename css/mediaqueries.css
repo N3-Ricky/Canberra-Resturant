@@ -285,6 +285,18 @@
   #price-hero{
     height: 86vh;
   }
+  /* resturant */
+  .fig-container{
+    width: 50%;
+  }
+  .fig-text{
+    top: 50%;
+    left: 50%;
+    font-size: 0.75rem;
+  }
+  .fig-text h1{
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -496,5 +508,17 @@
   }
   #price-hero{
     height: auto;
+  }
+  /* resturant */
+  .fig-container{
+    width: 100%;
+  }
+  .fig-text{
+    top: 50%;
+    left: 50%;
+    font-size: 0.75rem;
+  }
+  .fig-text h1{
+    font-size: 1.25rem;
   }
 }

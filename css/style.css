@@ -475,3 +475,79 @@ div {
   height: 250px;
   width: 300px;
 }
+
+/* Resturant */
+.resturant-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+.fig-container {
+  position: relative;
+  width: 33.33%;
+  height: fit-content;
+  box-sizing: border-box;
+  overflow: hidden; /* Add overflow to contain child elements */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-belluci{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.fig-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align text to the center */
+  align-items: center;
+  height: 100%; /* Occupy full height of .fig-container */
+  padding: 10px; /* Add padding for spacing */
+  text-align: center;
+  background-color: rgba(31, 20, 20, 0.7); /* Background color with opacity */
+  opacity: 0;
+  transition: 0.5s ease;
+}
+/* .fig-text{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+.fig-container:hover .img-belluci{
+  opacity: 0.3;
+}
+.fig-container:hover .fig-text{
+  opacity: 1;
+}
+.fig-text h1{
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#fig-section{
+  height: fit-content;
+}
+.button{
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+.fig-container:hover{
+  background-color: rgba(31, 20, 20, 0.7); /* Your desired hover background color with opacity */
+}
+.fig-text h1{
+  font-size: 2.5rem;
+}
+.fig-text p{
+  color: white;
+}
