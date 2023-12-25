@@ -30,7 +30,6 @@
 /* section */
 
 section {
-  height: 100vh;
   box-sizing: border-box;
   min-height: fit-content;
   margin: 0 0;
@@ -551,4 +550,43 @@ div {
 }
 .fig-text p{
   color: white;
+}
+/* dish page */
+#food{
+  padding-top: 7vh;
+}
+.asian-noodle{
+  height: 200px;
+  width: 200px;
+  align-content: center;
+}
+.dickson-asian{
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  justify-content: space-around;
+  padding: 1rem 5rem 1rem 5rem;
+}
+.food-text {
+  max-width: 500px; /* Set the maximum width as needed */
+  overflow: hidden; /* Hide overflow content beyond the max-width */
+}
+.food-text h1{
+  color: navy;
+  font-family: "Niconne", cursive;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.food-text h2{
+  font-size: 2rem;
+  font-weight: 350;
+}
+.food-text p{
+  font-size: 1rem;
+  padding-top: 1.5rem;
+}
+.food-hr{
+  width: 100%;
+  z-index: 1000;
+  border: 2px solid #f8bd08;
 }

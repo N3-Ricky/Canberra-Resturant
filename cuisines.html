@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Cuisines</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/site.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav
+      id="Navbar"
+      class="top-nav navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand nav-text" href="Index.html"
+          >Canberra Restaurants</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-text" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="resturant.html" alt="Restruants"
+                >Restaurants</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cuisines.html" alt="Cusines"
+                >Cuisines</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dishes.html" alt="Dish">Dishes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html" alt="Price">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html" alt="Location"
+                >Locations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" alt="Contact & About"
+                >Contact & About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div class="background-container">
+        <div>
+          <img src="./images/background.jpg" alt="chef cooking" class="backg" />
+        </div>
+        <div class="background-overlay"></div>
+        <div class="hero-text">
+          <div class="border-container">
+            <h1>
+              Canberra <br />
+              Restruants
+            </h1>
+          </div>
+          <h2 class="hero-color">Cuisines</h2>
+        </div>
+      </div>
+    </section>
+    <section id="cuisine">
+      <div class="accordion" id="myAcc">
+        <div class="card">
+          <div
+            class="card-header"
+            id="headingOne"
+            style="background-color: lavender"
+          >
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Italian
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#myAcc"
+            style="background-color: lavender"
+          >
+            <div class="card-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img class="cbgi" src="images/location/is_logo.jpg" />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">Italian and sons</h1>
+                        <p class="p mtop">
+                          "A casual Italian trattoria that specialises in wood
+                          fired pizzas such as Rucola with Prosciutto di Parma,
+                          rucola & reggiano. Don't miss daily changing main
+                          dishes of the day such as their wood roast suckling
+                          pig, rosemary, garlic, baked baby fennel & mustard
+                          fruits. " Australian Good Food Guide.
+                        </p>
+                        <p class="p mtop">
+                          <a href="http://italianandsons.com.au/">Click Here</a>
+                          for Italian and sons Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img
+                          class="cbgi"
+                          img
+                          src="images/location/bellucis_logo.jpg"
+                        />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">Belluci’s Italian</h1>
+                        <p class="p mtop">
+                          "Belluci's demonstrates a new concept, a new food
+                          philosophy – the dawn of a new era in Canberra dining.
+                          Having been established more than 20 years ago,
+                          Belluci's fast became an iconic name in Canberra. To
+                          bring you the finest dishes, we’ve gone back to
+                          traditional Italian routes, creating simple, rustic
+                          food." Belluci's Italian Website.
+                        </p>
+                        <p class="p mtop">
+                          <a href="https://bellucis.com.au/home.php"
+                            >Click Here</a
+                          >
+                          for Italian and sons Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="card-header"
+            id="headingTwo"
+            style="background-color: lightgray"
+          >
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Asian
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#myAcc"
+            style="background-color: lightgray"
+          >
+            <div class="card-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img
+                          class="cbgi"
+                          img
+                          src="images/location/chairman_logo.jpg"
+                        />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">Chairman & Yip</h1>
+                        <p class="p mtop">
+                          The Chairman & Yip has become one of Canberra’s
+                          longest standing and most highly regarded
+                          institutions, having received numerous awards over the
+                          years, offering an ever consistent and professional
+                          quality of service for corporate dining, conferences
+                          and presentations.
+                        </p>
+                        <p class="p mtop">
+                          <a href="http://chairmangroup.com.au/chairmanyip/"
+                            >Click Here</a
+                          >
+                          for Chairman & Yip Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img
+                          class="cbgi"
+                          img
+                          src="images/location/noodle_logo.jpg"
+                        />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">
+                          Dickson Asian Noodle House
+                        </h1>
+                        <p class="p mtop">
+                          "The Dickson Asian Noodle House specialises in
+                          traditional Malaysian, Thai and Lao cuisine. The
+                          dining atmosphere is casual and cosy providing for a
+                          la carte dining, banquets and take away." Vibe FM
+                          Website.
+                        </p>
+                        <p class="p mtop">
+                          <a
+                            href="https://www.facebook.com/pages/Dickson-Asian-Noodle-House/156690017692038"
+                            >Click Here</a
+                          >
+                          for Dickson Asian Noodle House Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div
+            class="card-header"
+            id="headingThree"
+            style="background-color: lavender"
+          >
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Indian
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#myAcc"
+            style="background-color: lavender"
+          >
+            <div class="card-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img
+                          class="cbgi"
+                          src="images/location/bluginger_logo.jpg"
+                        />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">Blu Ginger</h1>
+                        <p class="p mtop">
+                          "At Blu Ginger we use only the freshest locally
+                          sourced produce, combined with authentic spices
+                          imported directly from the sub-continent, to offer
+                          classic, traditional recipes with a modern twist,
+                          creating a unique and memorable dining experience for
+                          you." Blu Ginger Website.
+                        </p>
+                        <p class="p mtop">
+                          <a href="http://www.bluginger.com.au/">Click Here</a>
+                          for Blu Ginger Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-3">
+                        <img
+                          class="cbgi"
+                          img
+                          src="images/location/jewel_logo.jpg"
+                        />
+                      </div>
+                      <div class="col-md-9 col-sm-9 col-sm-9 col-9">
+                        <h1 class="header-text-2 mtop">Jewel of India</h1>
+                        <p class="p mtop">
+                          "Finding a balance between dishes inspired by
+                          authentic recipes and creating a modern take on
+                          classic cuisine sees a loyal following of Canberra
+                          locals returning for a mouth-watering feast."
+                          Australian Good Food Guide Website.
+                        </p>
+                        <p class="p mtop">
+                          <a href="http://www.jewelofindia.com.au/"
+                            >Click Here</a
+                          >
+                          for Jewel of India Website.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary author">© 2023 Ricky Kang</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end align-items-center list-unstyled d-flex">
+            <li class="logo-item">
+              <a class="text-body-secondary" href="https://www.facebook.com/RickyRicky1907">
+                <img src="./images/logo/623dd7d270712bdafc63c38a.png" style="width: 40px; height: 40px;" />
+              </a>
+            </li>
+            <li class="logo-item">
+              <a class="text-body-secondary" href="https://www.instagram.com/_riki.n/">
+                <img src="./images/logo/5ecec78673e4440004f09e77.png" style="width: 33px; height: 33px;" />
+              </a>
+            </li>
+            <li class="logo-item">
+              <a class="text-body-secondary" href="https://github.com/N3-Ricky">
+                <img src="./images/logo/github-mark.png" style="width: 35px; height: 35px;" />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </section>
+  </body>
+</html>
