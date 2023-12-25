@@ -503,6 +503,7 @@ div {
 }
 .fig-text {
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: center; /* Align text to the center */
   align-items: center;

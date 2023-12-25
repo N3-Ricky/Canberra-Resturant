@@ -205,6 +205,16 @@
   #price-hero{
     height: 86vh;
   }
+  /* resturant */
+  .fig-container{
+    width: 50%;
+  }
+  .fig-text h1{
+    font-size: 1.25rem;
+  }
+  .fig-text p{
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -289,13 +299,11 @@
   .fig-container{
     width: 50%;
   }
-  .fig-text{
-    top: 50%;
-    left: 50%;
-    font-size: 0.75rem;
-  }
   .fig-text h1{
-    font-size: 1.25rem;
+    font-size: 0.9rem;
+  }
+  .fig-text p{
+    font-size: 0.75rem;
   }
 }
 
@@ -514,11 +522,26 @@
     width: 100%;
   }
   .fig-text{
-    top: 50%;
-    left: 50%;
     font-size: 0.75rem;
   }
   .fig-text h1{
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* resturant */
+  .fig-container{
+    width: 100%;
+  }
+  .fig-text{
+    font-size: 0.6rem;
+  }
+  .fig-text h1{
+    font-size: 0.9rem;
+  }
+  /* hero section */
+  .border-container h1{
+    font-size: 1rem;
   }
 }
